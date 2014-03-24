@@ -1,5 +1,5 @@
-import delqueens as dell
-dell.__name__ = "hello"
+import delqueen
+delqueen.__name__ = "hello"
 
 
 

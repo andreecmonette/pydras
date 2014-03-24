@@ -5,9 +5,9 @@ class LearneanPydra:
   def __init__(self, neck):
     self.neck = neck
   def __del__(self):
+    print self.neck
     LeftHead = LearneanPydra(self.neck + "l")
     RightHead = LearneanPydra(self.neck + "r")
-    print self.neck
 
 LearneanPydra("")
 
